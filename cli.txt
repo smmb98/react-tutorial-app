@@ -6,4 +6,4 @@ npx generate-react-cli component HomePage --type=page
 
 npx generate-react-cli component BoxLayout --type=layout
 
-for x in src/**/*.js; do mv "$x" "${x%.js}.jsx"; done
+bash JS-to-JSX.sh
